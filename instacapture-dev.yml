@@ -2,5 +2,5 @@ insta:
   mediaId: 17955760372638048
   facebookUrl: "https://graph.facebook.com/v13.0"
   token: "{cipher}036690925d4996d09be90467b8b0145edc5088fc75a2b05c3dd486b31af168b8efe4392c83dea7d9f370f5fac4d1bcef5f3b8d4c76c318f4ba0f725d861a8268aaf68c1eb9d3ee1ef5e29d6905f4bb70b8b6132b13c9ef937266d3cde10ac86ed145253a17e303ac493aa8343dd3e557ca4f21e1ef6d9e4fc1d6dd22f455446267320f46f1017af33ab35b625c5446bf321f738f8a5aa279f30eed19d8eb3fb76c01f3098d70a1abe965fbd4d81288757869931b6cd8d541c9e997bd5571bb7cfd6a1131a915cdd124571d9053829b222687c7445065935e1c3f721c65253caa"
-  commentUrl: ${facebookUrl}/{mediaId}?fields={fields}&access_token={access_token}
+  commentUrl: ${insta.facebookUrl}/{mediaId}?fields={fields}&access_token={access_token}
   fields: "caption,id,media_url,thumbnail_url,comments{id,text,username}"
